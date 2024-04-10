@@ -9,7 +9,7 @@
     
 #grid-area1{
 	background-color: green;
-	grid-column: auto/auto;
+	grid-column: span 4/auto;
 }
 
 #grid-area2{
