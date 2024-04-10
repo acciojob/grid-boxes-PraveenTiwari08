@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+}
+
+#grid > div {
+  width: 100px;
+  height: 100px;
+  background-color: #ddd;
+  border: 1px solid #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
